@@ -1,14 +1,14 @@
 # RSI Landscape 2026 · 递归自我改进(Recursive Self-Improvement)全景调研
 
-> English: A fully-sourced landscape study of **Recursive Self-Improvement (RSI)** in AI agents — how it is layered, what each layer concretely does, and what is empirically real versus still conceptual. Snapshot of **2026-09-28**. 正文中文,所有引文保留页面英文原句。
+> English: A fully-sourced landscape study of **Recursive Self-Improvement (RSI)** in AI agents — how it is layered, what each layer concretely does, and what is empirically real versus still conceptual. Snapshot of **2026-09-28**. 正文中文；证据笔记包含原句、摘要转述与检索线索，须按条目类型阅读。
 
 ## 这是什么
 
 2026 年,RSI 从科幻词汇变成了有 35 人综述、有公司专门部门(Sakana RSI Lab)、有官方评测类目(OpenAI "AI Self-Improvement")、有政策触发器(Anthropic RSP / GDM FSF)的工作领域。本调研用多智能体深度调研流程完成,特点:
 
-- **16 份证据笔记 / 309 条 claims**——每条带来源 URL 与页面英文原句(逐字摘录,不改写),见 [evidence/](evidence/);
+- **16 份证据笔记 / 309 条 claims**——保留来源、引文与检索记录；不将摘要或线索当作逐字引文,见 [evidence/](evidence/);
 - **终审回源核验**——3 个独立核验通道的判定表共 92 行:85 confirmed、2 confirmed-absent、2 confirmed(nuance)、2 nuance、1 wrong。按判定行统计,不混用文献组数;已确认勘误同步到成稿,见 [audit.md](audit.md);
-- **分层成稿**——报告 1.3 万字符独立成立,字段对照册与专题页按需下钻,互不重复。
+- **分层成稿**——[report.md](report.md) 为完整成稿，字段对照册与专题页供按需查证。
 
 ## 三个核心问题(速览)
 
@@ -23,13 +23,12 @@
 | 15 分钟看懂 | [report.md](report.md) §0–§2 |
 | 查某个系统 / 数字 / 阈值原文 | [atlas.md](atlas.md)(字段对照册) |
 | 深读三个专题 | [details/](details/) — [SJTU 六级逐字判据](details/sjtu-ladder.md) · [DGM objective-hacking 案例复盘](details/dgm-hacking-case.md) · [2026 产业引语底册](details/frontier-2026.md) |
-| 核对任何一句话 | [evidence/](evidence/)(309 条 claims 带原句)+ [audit.md](audit.md)(核验判定表) |
+| 核对任何一句话 | [evidence/](evidence/)(309 条 claims 与来源记录)+ [audit.md](audit.md)(核验判定表) |
 | 全景网格(27 实体 × 8 维) | [grid.md](grid.md) · 术语表 [vocab.md](vocab.md) |
 
 ## 方法与可信度
 
-- 流程:R0 反向词表 → R1 八路并行扩展(207 claims)→ 收束裁决 → R2 五路定向补深(102 claims)→ 终审三通道回源核验 → 分层成稿。完整方法论与残余缺口见 [METHODOLOGY.md](METHODOLOGY.md)。
-- 证据纪律:claims 必须带原句;冲突显式裁决不留暗仓;数字口径陷阱单独成节(report §5);否定主张也走核验。
+- 方法、证据纪律与残余缺口见 [METHODOLOGY.md](METHODOLOGY.md)；数字口径陷阱见 report §5。
 - 时效声明:2026-09-28 快照,这个领域以周为单位变化。
 
 ## License
