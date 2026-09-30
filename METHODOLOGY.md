@@ -45,9 +45,11 @@
 
 3 个独立核验通道(arXiv 论文簇 / 官方页簇 / 媒体社区簇)重新打开原始页面逐条判定,判定值 confirmed / wrong / not-on-page / nuance / confirmed-absent:
 
-- arXiv 簇:14 组,12 confirmed,1 wrong(GEPA v2 摘要是 "6% on average",10% 仅 v1——已改稿),1 nuance(Voyager 15.3× 应为 "up to 15.3x faster");
-- 官方页簇:30 组(含 2 个否定主张),28 confirmed + 2 confirmed-absent(《When AI builds itself》页面无 "we don't consider ourselves" 字样、无 "26%"),0 需改稿;
-- 媒体簇:30 组,27 confirmed,1 nuance 需改稿(Anthropic 报告首发日期的逐字依据应挂 Tom's Hardware 6-09 续篇/VentureBeat 时间戳——已改)。
+- arXiv 簇:31 行判定(14 个论文编号),29 confirmed、1 wrong(GEPA v1/v2 数字口径)、1 nuance(Voyager 的 up to 限定);
+- 官方页簇:30 行,28 confirmed + 2 confirmed-absent(两条限定页面范围内的否定主张);
+- 媒体簇:31 行,28 confirmed、2 confirmed(nuance)、1 nuance(报告首发日期的出处需交叉核对)。
+
+合计 92 行。这里校正分组与逐行计数混用的问题,不改动原始判定表;详细状态与改稿说明见 audit.md。
 
 判定表:[evidence/audit-arxiv.md](evidence/audit-arxiv.md) · [evidence/audit-official.md](evidence/audit-official.md) · [evidence/audit-media.md](evidence/audit-media.md);汇总与改稿记录:[audit.md](audit.md)。
 

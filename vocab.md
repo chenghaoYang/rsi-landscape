@@ -21,7 +21,7 @@
 | AI Scientist (v1/v2) | Sakana 自动科研 agent;<$15/篇;"超顶会线"判据是自建自动评审员(争议源) | ✅ |
 | Voyager | 自动课程+可执行代码技能库+迭代提示;独有物品 3.3×,明确绕开参数微调 | ✅ |
 | Reflexion / Self-Refine | 语言反馈自改循环;成功依赖外部反馈(单测/环境),纯内在自纠错被证伪 | ✅ |
-| prompt 自优化(OPRO/DSPy/GEPA) | OPRO:meta-prompt 含历史候选与得分;DSPy:对着 metric 编译;GEPA:轨迹反思+Pareto 前沿,超 GRPO 10%、rollouts 少 35× | ✅ |
+| prompt 自优化(OPRO/DSPy/GEPA) | OPRO:meta-prompt 含历史候选与得分;DSPy:对着 metric 编译;GEPA:轨迹反思+Pareto 前沿,超 GRPO:v1 四任务平均 10%、v2 六任务平均 6%,最多少 35× rollouts | ✅ |
 | skill library / 记忆固化 | Voyager 按描述嵌入索引技能;MemGPT OS 式分层记忆(32.1%→92.5%);Generative Agents reflection(重要性阈值 150 触发) | ✅ |
 | Self-Instruct / STaR | 自生成指令(52K 条,+33%)/自举 rationale(CommonsenseQA +35.9%) | ✅ |
 | Self-Rewarding LM | LLM-as-a-Judge 自造奖励;3 轮后对 GPT4-Turbo 胜率 9.94→20.44% | ✅ |

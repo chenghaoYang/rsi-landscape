@@ -7,7 +7,7 @@
 2026 年,RSI 从科幻词汇变成了有 35 人综述、有公司专门部门(Sakana RSI Lab)、有官方评测类目(OpenAI "AI Self-Improvement")、有政策触发器(Anthropic RSP / GDM FSF)的工作领域。本调研用多智能体深度调研流程完成,特点:
 
 - **16 份证据笔记 / 309 条 claims**——每条带来源 URL 与页面英文原句(逐字摘录,不改写),见 [evidence/](evidence/);
-- **终审回源核验**——3 个独立核验通道重开原始页面逐条判定:62 组,60 confirmed(含 2 个"确认不存在"型否定主张),唯一 wrong 已改稿,见 [audit.md](audit.md);
+- **终审回源核验**——3 个独立核验通道的判定表共 92 行:85 confirmed、2 confirmed-absent、2 confirmed(nuance)、2 nuance、1 wrong。按判定行统计,不混用文献组数;已确认勘误同步到成稿,见 [audit.md](audit.md);
 - **分层成稿**——报告 1.3 万字符独立成立,字段对照册与专题页按需下钻,互不重复。
 
 ## 三个核心问题(速览)

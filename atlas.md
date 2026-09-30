@@ -1,6 +1,6 @@
 # atlas.md — RSI 字段对照册
 
-> 与 report.md 配套:report 是叙事(≤20k),这里是字段级细节(全维度,不做省略)。每格可溯源到 evidence/(309 条 claims 带原句)。终审核验:evidence/audit-*.md(62 组判定,60 confirmed)。
+> 与 report.md 配套:report 是叙事(≤20k),这里是字段级细节(全维度,不做省略)。每格可溯源到 evidence/(309 条 claims 带原句)。终审核验:evidence/audit-*.md 共 92 行判定;各状态计数见 [audit.md](audit.md),不与文献组数混用。
 
 ## 1. 分层框架逐字对照(疑点1 主表)
 

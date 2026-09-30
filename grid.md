@@ -12,7 +12,7 @@
 | AI-GAs | 输出 AI 的算法,三支柱 | Clune 2019 | 架构+算法+环境 | L3-L5 愿景 | 进化环境 | 无直接系统 | 愿景纲领 | w1 ✅ |
 | Self-Refine | 同一 LLM 生成/反馈/修正交替 | Madaan 2023 | 输出(任务内) | B0-L1 | 自评(失败源) | 7 任务 ~+20%;失败 61% 修法不当 | 纯内在自纠错被证伪 | w2 ✅ |
 | Reflexion | 语言反馈存情景记忆,不更新权重 | Shinn 2023 | 情景记忆 | L1(记忆) | Evaluator(单测/环境) | HumanEval 91%>GPT-4 80% | 需外部反馈;局部最优 | w2 ✅ |
-| OPRO/DSPy/GEPA | LLM 优化 prompt;编译;轨迹反思 | 2023/2023/2025 | prompt | L2 | metric/评测集 | GSM8K +8%;GEPA 超 GRPO 10% | 数字随版本漂 | w2 ✅ |
+| OPRO/DSPy/GEPA | LLM 优化 prompt;编译;轨迹反思 | 2023/2023/2025 | prompt | L2 | metric/评测集 | GSM8K +8%;GEPA 超 GRPO:v1 四任务平均 10%,v2 六任务平均 6% | 数字随版本漂 | w2 ✅ |
 | Voyager/MemGPT | 自动课程+技能库;OS 式分层记忆 | 2023 | 技能库/记忆 | L3/L1 | 环境/自定向 | 3.3× 物品;32→92.5% | API 成本;底座幻觉 | w2 ✅ |
 | ADAS | meta agent 迭代写 agent 入 archive | Hu/Clune 2024 | agent 代码 | L2(改agent不改己) | benchmark | DROP +13.6/MGSM +14.4 | 一次性设计非运行时自改 | w3 ✅ |
 | AFlow | MCTS 搜代码表示 workflow | 2024 | workflow | L2 | 执行评测 | +5.7% vs 人工;4.55% 成本超 GPT-4o | 同上 | w3 ✅ |

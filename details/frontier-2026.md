@@ -1,6 +1,6 @@
 # 2026 年 RSI 产业现状数字册(一手引语对照)
 
-> 终审:audit-official 30/30 confirmed(含 2 confirmed-absent)、audit-media 27/30 confirmed。阈值原文全表在 atlas §3.2;本页是引语与数字底册。
+> 终审判定表:官方页 30 行、媒体页 31 行,包含不同判定状态;统一计数见 [audit.md](../audit.md)。阈值原文全表在 atlas §3.2;本页是引语与数字底册。
 
 ## Anthropic《When AI builds itself》(2026-06-04 首发,Favaro & Clark)
 
